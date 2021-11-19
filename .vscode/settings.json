@@ -1,0 +1,13 @@
+{
+  "vetur.completion.autoImport": false,
+  "vetur.format.enable": false,
+  "vetur.underline.refValue": false,
+  "vetur.validation.interpolation": false,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.languageFeatures.semanticTokens": false,
+  "vetur.languageFeatures.updateImportOnFileMove": false,
+  "vetur.languageFeatures.codeActions": false,
+  "vetur.format.defaultFormatter.html": "none"
+}
