@@ -9,6 +9,10 @@
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="typescript" /></code>
 
 需要配合 [server](https://github.com/mayswind/AriaNg) 端一起使用
+  
+### 运行截图
+  
+![20211119-154655](https://user-images.githubusercontent.com/21986958/142585177-68dfdfbb-cf4a-46e5-ae80-c39e3e9ad03a.png)
 
 ## 设置
 
@@ -30,7 +34,7 @@ npm run build
 #运行
 npm run start
 ```
-
+  
 ## License
 
 MIT
