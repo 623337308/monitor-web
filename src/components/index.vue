@@ -83,7 +83,7 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, onMounted, toRefs, computed, defineProps } from 'vue';
+import { reactive, onMounted, toRefs, computed } from 'vue';
 import io from 'socket.io-client';
 
 const { api } = defineProps<{ serverName: string; api: string }>();

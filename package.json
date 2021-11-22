@@ -4,10 +4,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "pm2": "pm2 start --name monitor-web npm -- run dev"
   },
   "dependencies": {
-    "rollup-plugin-copy": "^3.4.0",
     "socket.io-client": "^4.3.2",
     "stylus": "^0.55.0",
     "vue": "^3.2.16"
