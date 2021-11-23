@@ -33,7 +33,7 @@ const serverList: server[] = [
 #编译
 npm run build
 #运行
-npm run start
+部署dist目录文件即可
 ```
 
 ## License

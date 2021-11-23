@@ -26,7 +26,9 @@ html,body,#app
   margin: 0
 
 #app
+  font-family: 'Noto Sans', sans-serif;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   >div

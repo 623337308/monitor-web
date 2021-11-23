@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "pm2": "pm2 start --name monitor-web npm -- run dev"
+    "pm2": "pm2 start \"anywhere -s -p 9876\" --name web"
   },
   "dependencies": {
     "socket.io-client": "^4.3.2",
