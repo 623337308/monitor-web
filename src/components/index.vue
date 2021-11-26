@@ -69,11 +69,15 @@
         <div class="netstat">
           <div>
             <i class="f-down icon" />
-            <span>{{ info.netstat?.total?.inputMb || 0 }}MB/s</span>
+            <span>
+              {{ info.netstat?.total?.inputMb?.toFixed(2) || 0 }}MB/s
+            </span>
           </div>
           <div>
             <i class="f-up icon" />
-            <span>{{ info.netstat?.total?.outputMb || 0 }}MB/s</span>
+            <span>
+              {{ info.netstat?.total?.outputMb?.toFixed(2) || 0 }}MB/s
+            </span>
           </div>
         </div>
       </div>
@@ -122,7 +126,7 @@ onMounted(() => {
     console.log('尝试重新连接');
   });
 
-  socket.on('reconnect_failed', function () {
+  socket.on('reconnect_failed', () => {
     isReconnect.value = true;
     console.log('连接失败');
   });
